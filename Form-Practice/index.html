@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form Practice</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <form action="">
+            <div class="form-row">
+                <label for="adi">Ad</label>
+                <input name="adi" id="adi" type="text" required placeholder="Mustafa Can"/>
+            </div>
+
+            <div class="form-row">
+                <label for="telelfon">Telefon</label>
+                <input name="tel" id="telefon" type="tel" required />
+            </div>
+
+            <div class="form-row">
+                <label for="mail">Email</label>
+                <input name="email" id="mail" type="email" required />
+            </div>
+
+            <div class="form-row">
+                <label for="message">Mesajınız</label>
+                <textarea name="message" id="message" rows="3"></textarea>
+            </div>
+
+            <div class="form-row">
+                <label for="sehir">Şehir</label>
+                <select name="şehir" id="sehir">
+                    <option value="34">İstanbul</option>
+                    <option value="01">Adana</option>
+                    <option value="32">Isparta</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Sevdiğiniz Renk </p>
+                <label><input type="radio" name="renk"/> Kırmızı</label>
+                <label><input type="radio" name="renk" /> Yeşil</label>
+            </div>
+
+            <div class="form-row">
+                <button type="reset">Sıfırla</button>
+                <button type="submit">Gönder</button>
+            </div>
+        </form>
+    </body>
+</html>
